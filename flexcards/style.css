@@ -1,0 +1,35 @@
+:root {
+    --brand-color: #3CB35A;
+    --dark-color: #03012C;
+    --mid-color: #635E79;
+    --light-color: #FFFFFF;
+      
+    --base-font: Verdana, Geneva, Tahoma, sans-serif;
+    --brand-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    --cardWidth: 240px;
+    --cardHeight: 280px;
+    --cardMargin: 16px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--base-font);
+    color: var(--dark-color);
+    background: var(--light-color);
+}
+
+.cards{
+    background: var(--mid-color);
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex: 1 0 48%;  
+    margin: 1%; 
+}

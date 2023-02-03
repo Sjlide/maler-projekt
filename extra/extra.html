@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WU RTS</title>
+</head>
+
+<header>
+    <style>
+        .container {
+        display: flex;
+      }
+    
+      .text {
+        padding-top: 10px;
+      }
+        </style>
+    
+    
+    <div class="container">
+          <div class="image">
+            <img src="logo_footer.png" width="35px">
+          </div>
+          <div class="text">
+            <font size="1"><h1>WU - RTS</h1></font>
+          </div>
+</header>
+
+<br>
+
+<div class="div44" style="display: flex; justify-content: space-between;">
+        <a href="#">Standardvisninger</a>
+        <p style="margin : 0; padding-top:0;">&nbsp;|&nbsp;</p>
+        <a href="#">Dagens citat</a>
+        <p style="margin : 0; padding-top:0;">&nbsp;|&nbsp;</p>
+        <a href="#">Eksempler</a>
+        <hr>
+</div>
+<hr>
+
+<body>
+    <div class="ingencss">
+    <h1>Ingen CSS</h1>
+    <H2>Om browserens Standardvisninger</H2>
+    <p>Denne side indeholder ikke regler for styles men alligevel ser vi en masse visuelle forskelle på elementerne.</p>
+    <p>Det skyldes at webbrowsere formaterier de forskellige HTML elementer med en default style regler.</p>
+    <hr>
+    </div>
+
+    <div class="dagenscitat">
+        <h2>Dagens citat</h2>
+        <p>&emsp;&emsp;&emsp;I look like a <span class="span1">geeky hacker</span>, but I don't know anything about computers.</p>
+        <p><em>&emsp;&emsp;&emsp;Craig Bruce</em></p>
+    <style>
+        .span1   {
+            background-color: rgb(230, 255, 4);  
+           
+        }
+    </style>
+    <hr>
+    </div>
+
+    <div class="eksemlper">
+        <h2>Eksempler</h2>
+        <p style="margin : 0; padding-top:0;">Nogle blok elementer har f.eks. default margins som f.eks. <i>p, hl-h6 og li.</i></p>
+        <p style="margin : 0; padding-top:0;">Selve typografien i de forskellige tags renderes med normal, kursiv, fed skrift, tekstfarve, understreget eller gennemstreget, afhængig af formateringen.</p>
+        <h3>Form-elementer og inputs</h3>
+        <p>Input-felter, fieldset og textareas har borders/ outlines</p>
+    </div>
+<section>
+    <fieldset class="fieldset1">
+        <legend>Et Fieldset:</legend>
+        <h3 class="h3">Dropdown</h3>
+        <label for="dropd"></label>
+        <select name="dropd" id="dropd" title="Vælg mellem svarmulighederne">
+            <option value="valg1">Dropdowns kan være vældig brugervenlige</option>
+            <option value="valg2">De kan være meget brugervenlige</option>
+            <option value="valg4">De kan være alt for brugervenlige</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <br>
+    <label for="box"><strong>Tekstfelt bemærk at tags inden i tekstfeltet ikke bliver renderet</strong></label>
+    <br>
+    <br>
+    <textarea id="box" name="box" rows="5" cols="38">
+Her er et eksempel på noget HTML markup
+<h2>Hej med jer</h2>
+    </textarea>
+    </fieldset>
+</section>
+
+<article>
+    <h3>Lister</h3>
+    <p>Ordnede og uordnede lister er nogen af de få HTML-elementer der har default horisontal padding.</p>
+<ul class="ul1" style="list-style-type: decimal">
+<li>Her er et nummereret liste-element</li>
+<li>Her er et andet nummereret liste-element</li>
+</ul>
+
+<ul class="ul2" style="list-style-type: disc">
+<li><strong>Her er et bullet point, med fed tekst</strong></li>
+<li><i>Her er et bullet point, med cursiv tekst</i></li>
+</ul>
+
+<div class="tabeller">
+    <h3>Tabeller</h3>
+<p style="margin-bottom:0;">
+    Blok-elementer renderes som default med 100% bredde, hvilket betyder at vi ikke kan placere dem side om side.
+</p>
+
+<p style="margin : 0; padding-top:0;">
+    men tabel-elementet tillader opdeling af indhold i kolonner.
+</p>
+
+<p style="margin : 0; padding-top:0;">
+    Derfor er tabel elementet blevet misbrugt godt og grundigt til præsentere alt muligt indhold i grids.
+</p>
+<br>
+
+<table>
+    <tr>
+        <td><strong>Dyretype</strong></td>
+        <td><strong>Familie</strong></td>
+        <td><strong>Favoritmad</strong></td>
+    </tr>
+    <tr>
+        <td>Kat</td>
+        <td>Pattedyr</td>
+        <td>Tun</td>
+    </tr>
+    <tr>
+        <td>Python</td>
+        <td>Krybdyr</td>
+        <td>Dig</td>
+    </tr>
+    <tr>
+        <td>Måge</td>
+        <td>Fugl</td>
+        <td>Hot dogs</td>
+    </tr>
+  </table>
+
+<hr>
+</div>
+</article>
+<footer>
+<p><strong><i><span class="span2">CMK</span> - Roskilde Teksniske skole</p></strong></i>
+<p><i>Pulsen 8</i></p>
+<p><i>4000 Roskilde</i></p>
+
+<style class="span2">
+.span2{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+</style>
+
+</footer>
+
+
+</body>
+</html>

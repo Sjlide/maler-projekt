@@ -1,0 +1,232 @@
+:root {
+    --brand-color: #1B1725;
+    --dark-color: #FFFFFF;
+    --mid-color: #6366F1;
+    --light-color: #667389;
+
+    --font-1:'Secular One', sans-serif;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.headermain{
+background-color: var(--light-color);
+min-height: 100vh;
+box-shadow: 0px -20px 25px 0 rgba(0, 0, 0, 0.19), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.header{
+    padding: 14px 10px;
+    background-color: var(--dark-color);
+    overflow: hidden;
+    box-shadow: 0px -20px 25px 0 rgba(0, 0, 0, 0.19), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+    z-index: 2;
+}
+
+.header h2{
+    color: var(--brand-color);
+    text-align: left;
+    position: relative;
+    top: 24px;
+    left: 150px;
+    font: var(--font-1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headerimg{
+    position: absolute;
+    margin: auto;
+    left: 86px;
+    top: 6px;
+    text-align: left;
+    width: 300px;
+}
+
+header a{
+    position: relative;
+    color: var(--brand-color);
+    float: right;
+    text-decoration: none;
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 20px;
+    bottom: 25px;
+    margin-left: 1.5rem;
+    right: 60px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+  .content {
+    padding: 16px;
+  }
+    
+body{
+    background-color: var(--dark-color);
+    color: var(--brand-color);
+    overflow-x: hidden;
+}
+
+
+.hero img {
+    position: relative;
+    width: 1000px;
+    padding-top: 10px;
+    float: right;
+    z-index: 1;
+}
+
+.section1{
+text-align: center;
+background-color: var(--light-color);
+margin-top: 8%;
+padding: 10%;
+min-height: 80vh; 
+box-shadow: 0px -20px 25px 0 rgba(0, 0, 0, 0.19), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+h1{
+    font-size: 230%;
+    font-family: 'Libre Boskerville', serif;
+    
+}
+
+.section1 p + .section2 p{
+    padding-top: 2%;
+    font-size: 120%;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Libre Boskerville', serif;
+    font-weight: lighter;
+}
+
+h2{
+    padding-top: 2%;
+    font-size: 160%;
+    font-family: 'Libre Boskerville', serif;
+    color: var(--brand-color);
+    font-weight: bolder;
+}
+
+.navse{
+    font-size: 120%;
+    font-family: 'Libre Boskerville', serif; 
+    line-height: 1.4;
+}
+
+
+.section2{
+    text-align: center;
+    background-color: var(--light-color);
+    margin-top: 8%;
+    padding: 10%;
+    min-height: 80vh; 
+    box-shadow: 0px -20px 25px 0 rgba(0, 0, 0, 0.19), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+.nummer{
+    font-size: 360%;
+    font-family: 'Libre Boskerville', serif;
+    font-weight: bolder;
+}
+
+
+.section3{
+    text-align: center;
+    background-color: var(--light-color);
+    margin-top: 5%;
+    padding: 10%;
+    min-height: 140vh;
+    box-shadow: 0px -20px 25px 0 rgba(0, 0, 0, 0.19), 0 20px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    color: var(--brand-color);
+}
+
+.nav3,.nav2,.nav1 {
+    font-size: 120%;
+    font-family: 'Libre Boskerville', serif; 
+    line-height: 1.4;
+    
+}
+
+.cardp1, .cardp2, .cardp3{
+    font-size: 120%;
+    width: 350px;
+    font-family: 'Libre Boskerville', serif;
+    font-weight: lighter;
+}
+
+
+
+
+.card1{
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin-top: 10vh;
+    margin-left: 26vh;
+    max-width: 350px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.card2{
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin-left: 5vh;
+    max-width: 350px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.card3{
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    transition: all .5s ease;
+    border-radius: 5px;
+    margin-left: 5vh;
+    max-width: 350px;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.card1:hover, .card2:hover ,.card3:hover {
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    transform: translate3D(0,-1px,0) scale(1.03);
+  }
+
+a{
+    text-decoration:none;
+    color: inherit;
+}
