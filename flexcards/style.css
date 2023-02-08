@@ -26,10 +26,43 @@ body{
 }
 
 .cards{
-    background: var(--mid-color);
+    background: var(--brand-color);
+    
+    width: 100%;
+    padding: 12vh 2vh;
+
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
-    flex: 1 0 48%;  
-    margin: 1%; 
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.cards section{
+    flex: 1 1 300px;
+    align-self: stretch;
+    height: 300px;
+
+
+    background: var(--light-color);
+
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(50,50,50,0.3);
+
+    padding: 1.5rem;
+}
+
+.cards p {
+    font-size: small;
+    margin: 1.5rem 0;
+}
+
+.cards h3{
+    font-size: x-large;
+    font-family: var(--brand-font);
+}
+
+.cards span{
+    color: gold;
+    margin-top: 60px;
 }

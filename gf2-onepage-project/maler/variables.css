@@ -1,0 +1,11 @@
+:root{
+    --brand-color: #7477FF;
+    --dark-color: #0F172A;
+    --mid-color: #5c616b;
+    --light-color: #FFFFFF;
+
+    --font-1: 'Raleway', sans-serif;
+
+    --shadow: 2px 16px 10px rgba(50,50,50,0.1);
+    
+}

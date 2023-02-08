@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: var(--dark-color);
+    color: var(--light-color);
+    padding: 45px;
+    font-family: var(--font-1);
+    font-weight: lighter;
+    box-shadow: 0 8px 100px black;
+
+}
+
+
+body{
+    background: var(--mid-color);
+    color: grey;
+
+}
