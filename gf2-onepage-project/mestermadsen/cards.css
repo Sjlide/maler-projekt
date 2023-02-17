@@ -1,0 +1,159 @@
+.cards{
+    background-color: var(--mid-color);
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    place-content: center;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.cards section{
+    width: 150px;
+    min-width: 325px;
+    height: 330px;
+    background: white;
+    padding: 6rem;
+    box-shadow: 8px 8px 16px rgba(60,60,60,0.2);
+    border-radius: 8px;
+    transform: scale(1);
+    transition: .2s ease;
+    
+}
+
+.sizeh2{
+    width: 240px;
+    margin-left: -53px;
+}
+
+.cards h1{
+    color: var(--brand-color);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -4rem;
+    margin-bottom: 8px;
+    font-size: x-large;
+}
+
+.cards h2{
+    color: var(--dark-color);
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cards li{
+    color: var(--dark-color);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: var(--font-second);
+    font-size: small;
+
+}
+
+.cards p{
+    font-size: x-small;
+    width: 220px;
+    text-align: right;
+    margin-left: -54px;
+    font-family: var(--font-second);
+    margin-bottom: -20px;
+}
+
+.cards .pris{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: right;
+    margin-left: -54px;
+    font-family: var(--font-second);
+}
+
+.cards section:hover{
+    transform: scale(1.1);
+    transition: .2s ease;
+}
+
+.cards2{
+    background-color: var(--mid-color);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    place-content: center;
+    padding-top: 2rem;
+    gap:2rem;
+}
+
+.cards2 section {
+    width: 150px;
+    min-width: 360px;
+    height: 330px;
+    background: white;
+    padding: 1rem;
+    box-shadow: 8px 8px 16px rgba(60,60,60,0.2);
+    border-radius: 8px;
+    transform: scale(1);
+    transition: .2s ease;
+}
+
+.cards2 h2{
+    text-align: left;
+    color: var(--dark-color);
+    font-family: var(--font-second);
+    font-weight: bold;
+    width: 250px;
+}
+
+.cards2 p{
+    text-align: left;
+    color: var(--dark-color);
+    font-size: 14px;
+    font-family: var(--font-second);
+    width: 330px;
+    margin-bottom: -20px;
+}
+
+.cards2 span{
+    display: flex;
+    color: gold;
+    font-size: x-large;
+    padding-left: 7rem;
+    padding-top: 1.5rem;
+}
+
+.cards2 section:hover{
+    transform: scale(1.1);
+    transition: .2s ease;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .cards p{
+        display: flex;
+        margin-left: 24px;
+    }
+
+    .cards .pris{
+        position: relative;
+        left: 140px;
+        width: 1px;
+    }
+    
+    .cards2 p{
+        display: flex;
+    }
+
+    .cards section{
+        pointer-events: none;
+    }
+    
+    .cards2 section{
+        pointer-events: none;
+    }
+
+    }

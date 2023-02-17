@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+    max-width:100%;
+}
+
+.hero{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr 3fr;
+
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.hero img:first-of-type{
+    grid-row: 2/5;
+    grid-column: 1/3;
+
+    width: 100%;
+    height: 170%;
+    object-fit: cover;
+}
+
+.hero section{
+    grid-row: 2/3;
+    grid-column: 3/6;
+
+    text-align: center;
+    padding: 3rem;
+    margin-top: 20vh;
+
+}
+
+.hero .erfaring{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+    width: 100%;
+    height: fit-content;
+
+    place-self: center;
+
+    background: var(--dark-color);
+    color: var(--light-color);
+    border-radius: 5px;
+    padding: 0.2rem 3.5rem;
+    margin-top: 1vh;
+
+    font-size: x-large;
+    text-align: center;
+
+    
+}
+
+.hero .erfaring span{
+    display: block;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: var(--font-second);
+}
+
+.hero img:last-of-type{
+    grid-row: 3/3;
+    grid-column: 1/6;
+    object-fit:cover;
+    object-position:top;
+    width:100%;
+    height: 100%;
+
+}
+
+h1, h2{
+  font-family: var(--font-brand);
+}
+
+main h1{
+    font-size: xx-large;
+    color: var(--dark-color);
+    font-family: var(--font-second);
+}
+
+main h2{
+    font-size: medium;
+    font-weight: 500;
+    color: var(--brand-color);
+}
+
+main p{
+    font-size: medium;
+    font-family: var(--font-brand);
+    color: var(--dark-color);
+    width: 622px;
+    
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .hero img:first-of-type{
+        grid-row: 1/5;
+        grid-column: 1/5;
+        object-fit: stretch;
+        opacity: 0.5;
+        z-index:-10;
+    }
+
+
+    main .erfaring{
+        display: none;
+    }
+
+    .hero section h1{
+        display: flex;
+        font-size: xx-large;
+        width: 200px;
+        margin-left: -150px;
+        margin-top: -280px;
+    }
+
+    .hero section h2{
+        width: 300px;
+        font-weight: bold;
+        margin-left: -200px;
+    }
+
+    .hero p{
+        font-size: medium;
+        width: 380px;
+        margin-left: -238px;
+        font-weight: bolder;
+    }
+
+    
+}

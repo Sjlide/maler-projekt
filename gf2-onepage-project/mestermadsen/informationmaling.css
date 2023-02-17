@@ -1,0 +1,50 @@
+.informationmaling{
+    min-height: 50vh;
+    text-align: center;
+}
+
+.informationmaling h1{
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+.informationmaling p{
+    display: flex;
+    justify-content: center;
+
+    color: var(--dark-color);
+    font-size: medium;
+    font-family: var(--font-second);
+    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.informationmaling h2{
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+.informationmaling ul{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.informationmaling li{
+    font-size: medium;
+    color: var(--dark-color);
+    margin-bottom: 4px;
+    font-family: var(--font-second);
+}
+
+
+@media screen and (max-width:1000px){
+    .informationmaling p{
+        display: flex;
+        width: auto;
+        font-size: small;
+        padding: 20px;
+    }
+}

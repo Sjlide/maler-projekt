@@ -1,0 +1,22 @@
+:root{
+    --brand-color: rgba(255, 202, 39);
+    --dark-color:rgba(21, 94, 117);
+    --mid-color:rgba(229, 231, 235);
+    --light-color:rgba(248, 250, 252);
+
+    --font-brand: 'Synonym', sans-serif;
+    --font-second: 'Amulya', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}

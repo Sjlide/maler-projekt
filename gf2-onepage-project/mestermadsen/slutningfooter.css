@@ -1,0 +1,86 @@
+ .afslutningfooter{
+    background: var(--mid-color);
+    color: var(--dark-color);
+    min-height: 35vh;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.afslutningfooter img{
+    height: 100px;
+    width: 120px;
+    margin-left: 40px;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  padding-bottom: 3rem;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding-top: 5rem;
+  }
+
+  .afslutningfooter h4{
+    font-size: large;
+    font-family: var(--font-second);
+    margin-bottom: 5px;
+    margin-left: 54px;
+  }
+
+
+  .afslutningfooter p{
+    font-size: 14px;
+    font-family: var(--font-second);
+    margin-bottom: 5px;
+    margin-left: 54px;
+    width: 300px;
+  }
+
+  .afslutningfooter .fa-facebook{
+    font-size: x-large;
+    margin-left: 54px;
+  }
+
+  .afslutningfooter .fa-twitter{
+    font-size: x-large;
+    margin-left: 5px;
+  }
+
+  .afslutningfooter .fa-linkedin{
+    font-size: x-large;
+    margin-left: 5px;
+
+  }
+  .afslutningfooter .fa-instagram{
+    font-size: x-large;
+    margin-left: 5px;
+  }
+
+  .afslutningfooter .fa:hover{
+    color: var(--brand-color);
+  }
+
+
+@media screen and (max-width:1000px){
+  .afslutningfooter .column{
+      width: auto;
+      text-align: center;
+      margin-left: -15px;
+      pointer-events: none;
+      margin-top: 25px;
+      padding: 0;
+  }
+
+  .afslutningfooter .column1{
+    width: auto;
+    text-align: center;
+    margin-left: -15px;
+    pointer-events: none;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+}
