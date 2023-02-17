@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.secondaryNavigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+
+.secondaryMenu{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    align-items: center;
+    font-size: x-small;   
+}
+
+.secondaryMenu__listItem{
+    border-right: 1px #505050 solid;
+    padding-right: 1em;
+}
+
+.secondaryMenu__link{
+    text-decoration: none;
+    color: inherit;
+    font-family: sans-serif ;
+}
+
+.paymentMethodList{
+    display: flex;
+    list-style: none;
+    gap: .5em;
+}
+

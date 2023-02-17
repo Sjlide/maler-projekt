@@ -142,41 +142,20 @@ header li{
         text-decoration: none;
         color: inherit;
   }
-
-  .section2{
-    background-color: var(--mid-color);
-    color: var(--brand-color);
-    font-family: var(--font-1);
-
-    margin-top: 22px;
-    padding-bottom: 424px;
-    
-
-    font-size: large;
-    font-weight: 500;
   
-}
 
-  .flex-item{
-    height: 500px;
-    width: 350px;
-    background-color: white;
+  .container{
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: 15px;
-    display: inline-block;
-
-    box-shadow: 16px 16px 46px rgba(0, 0, 0, 0.4);
-
-    
-}
-
-.flex-item p{
-    margin-top: 80px;
-}
-
-.flex-item span{
+    border-radius: 1rem;
     position: relative;
-    top: 60px;
+  }
 
-    font-size: 40px !important;
-}
+  .banner{
+    position: absolute;
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+  }
+
+
