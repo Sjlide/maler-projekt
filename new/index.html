@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo spillet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/pirates" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js" defer></script>
+    <script src="scriptmap.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+    <section class="point">
+        <h1>Zoo spillet</h1>
+        <span id="score">0</span>
+        <img src="/images/resetsiegel.png" class="emptyPoints">
+    </section>
+    <section class="info">
+        <p type="submit" class="knap" onclick="openPopup()"><u>Træk maden hen til det rigtige dyr for at få point</u></p>
+        <div class="popup" id="popup">
+            <h2>ZOO SPILLET</h2>
+            <p>Zoo spillet handler om at give det rigtige dyr mad og få point, dine point som du optjener kan du bruge på dit hus eller mere mad til dine dyr.</p>
+            <p>Men placere du forkert med din mad mister du dine point.</p>
+            <p>For hver mad du placere rigtigt får du 100 point og placere du forkert få du fjernet 100 point</p>
+            <p>Rammer du 0 point, genstarter spillet og du skal starte om.</p>
+            <span class="material-symbols-outlined md-48" onclick="closePopup()">
+            close
+            </span>
+        </div>
+        <h2>Dyr</h2>
+    </section>
+        <section id="animals">
+            <div id="kat" class="animals" data-food="drink">Kat</div>
+            <img src="/images/cat.png" alt="cat" class="cat">
+            <div id="pig" class="animals" data-food="vegetabels">Gris</div>
+            <img src="/images/pig.png" alt="pig" class="pig">
+            <div id="rhino" class="animals" data-food="grass">Flodhest</div>
+            <img src="/images/rino.png" alt="rhino" class="rhino">
+            <div id="lion" class="animals" data-food="meat">Løve</div>
+            <img src="/images/lion.png" alt="lion" class="lion">
+            <div id="giraf" class="animals" data-food="grass">Giraf</div>
+            <img src="/images/giraf.png" alt="giraf" class="giraf">
+        </section>
+        <section class="foodsection">
+            <p class="text">Mad</p></span>
+        <div class="food">
+            <div id="f-milk" draggable="true" class="food" data-food="drink">Mælk</div>
+            <div id="f-carrot" draggable="true" class="food" data-food="vegetabels">Gulerod</div>
+            <div id="f-humandmeat" draggable="true" class="food" data-food="meat">Menneske kød</div>
+            <div id="f-corn" draggable="true" class="food" data-food="vegetabels">Majs</div>
+            <div id="f-blad" draggable="true" class="food" data-food="grass">Blade</div>
+            <div id="f-grass" draggable="true" class="food" data-food="grass">Græs</div>
+        </div>
+    </section>
+    <div class="images">
+        <img src="/images/palm.png" alt="palm" class="palm1">
+        <img src="/images/palm.png" alt="palm2" class="palm2">
+        <img src="/images/parrot.png" alt="parrot" class="parrot">
+    </div>
+
+
+    <img src="/images/kort2.png" type="submit" class="open" onclick="openMap()">
+    <div class="mapup" id="mapup">
+        <img src="/images/kort.png" alt="kort" class="kort">
+        <a href="./index.html" class="zoo"></a>
+        <img src="/images/giraf.png" alt="girafmap" class="girafmap">
+        <a href="./kiosk.html" class="kiosk"></a>
+        <img src="/images/kiosk.png" alt="kioskmap" class="kioskmap">
+        <a href="./mine.html" class="mine"></a>
+        <img src="/images/minecart.png" alt="minecart" class="minecartmap">
+
+        <img src="/images/xmark.png" alt="xmark" class="xmark" onclick="closeMap()">
+    </div>
+</div>
+</body>
+</html>

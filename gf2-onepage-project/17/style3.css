@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.minebaggrund{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.minemand{
+  position: absolute;
+  height: 850px;
+  top: 14%;
+}
+
+  /* MINE */
+
+  #mine{
+    position: absolute;
+    display: flex;
+    gap: 5rem;
+
+    top: 35%;
+    left: 45%;
+  }
+
+  .stone, .metal{
+    width: 270px;
+  }
+
+  /* POP UP 2 */
+
+  .open{
+    max-width: 150px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+  .mapup{
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    transform: scale(0.1);
+    top: 40px;
+    right: 140px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+  }
+
+
+  .show-map{
+    position: absolute;
+    visibility: visible;
+    transform: scale(1);
+    top: -5%;
+    right: 79%;
+  }
+
+  .kort{
+    position: absolute;
+    z-index: 101;
+    height: 810px;
+  }
+
+  .xmark{
+    height: 100px;
+    position: absolute;
+    z-index: 103;
+    top: 100px;
+    left: 550px;
+    cursor: pointer;
+  }
+
+  .mapup a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 102;
+    opacity: 0.9;
+    cursor: pointer;
+  }
+
+  .kiosk{
+    background-color: #444444;
+    top: 370px;
+    left: 470px;
+  }
+
+  .zoo{
+    background-color: #444444;
+    top: 565px;
+    left: 480px;
+  }
+
+  .mapup a:hover{
+    background-color: rgb(246, 247, 248);
+    opacity: 0.7;
+  }
+
+  .girafmap{
+    position: absolute;
+    z-index: 101;
+    height: 130px;
+    top: 490px;
+    left: 365px;
+  }
+
+  .kioskmap{
+  position: absolute;
+  z-index: 101;
+  height: 200px;
+  top: 240px;
+  left: 345px;
+  }
+
+  .minecartmap{
+    position: absolute;
+    z-index: 101;
+    height: 160px;
+    top: 60px;
+    left: 350px;
+  }
+
+  .active{
+    position: absolute;
+    z-index: 101;
+    background-color: rgb(246, 247, 248);
+    top: 160px;
+    left: 430px;
+  }

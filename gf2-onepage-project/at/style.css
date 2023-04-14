@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 32px;
+    color: #2c3e50;
+    perspective: 1000px;
+}
+p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+}
+h2 {
+    text-align: center;
+}
+h2 small {
+    display: block;
+    color: #7f8c8d;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+#slider--text {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.fade-in {
+    animation: fade 4s infinite;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: rotate3d(2, 2, 0, 48deg);
+    }
+    20% {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0, 24deg);
+    }
+    80% {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0, 24deg);
+    }
+    100% {
+        opacity: 0;
+        transform: rotate3d(-2, -2, 0, 48deg);
+    }
+}

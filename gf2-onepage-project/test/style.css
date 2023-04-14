@@ -38,18 +38,194 @@ box-shadow:
   0px 0px 209.8px -58px rgba(0, 0, 0, 0.095),
   0px 0px 373px -58px rgba(0, 0, 0, 0.12)
 ;
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+-ms-transition: all 400ms ease-out;
+transition: all 400ms ease-out;
 }
 
 h1{
-    font-size: 40px;
+    font-size: 90px;
+    z-index: 99;
+}
+
+.stor1{
+    opacity: 0;
+    font-size: 80px;
     color: white;
     -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 85px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
 }
 
-h2{
-    display: none;
+.stor2{
+    opacity: 0;
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 85px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
 }
 
-h3{
-    display: none;
+.stor3{
+    opacity: 0;
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 85px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
 }
+
+
+.mellem1{
+    opacity: 0;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 160px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    
+}
+
+.mellem2{
+    opacity: 0;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 160px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    
+}
+
+.mellem3{
+    opacity: 0;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 160px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    
+}
+
+.lille1{
+    opacity: 0;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 224px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+}
+
+.lille2{
+    opacity: 0;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 224px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+}
+
+.lille3{
+    opacity: 0;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke: 1px rgb(62, 190, 120);
+    position: relative;
+    bottom: 224px;
+    z-index: 98;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+}
+
+.cards:hover .lille1{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .lille2{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .lille3{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .mellem1{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .mellem2{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .mellem3{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+.cards:hover .stor1{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+
+.cards:hover .stor2{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+
+.cards:hover .stor3{
+    opacity: 1;
+    bottom: 0;
+    transition-delay: 0s;
+    transition-duration: 0.6s;
+}
+
+
+

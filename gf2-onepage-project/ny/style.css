@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --brand-color: #84CC16;
+    --dark-color: #27272A;
+    --mid-color: #52525B;
+    --light-color: #F5F5F5;
+}
+
+body{
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.gif{
+    position: absolute;
+}
+
+.hero h1{
+    display: flex;
+}

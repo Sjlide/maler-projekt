@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.animatedDiv{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition: all 300ms ease
+}
+
+.animatedDiv--moved{
+    transform: translateX(200px);
+}

@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+    overflow: hidden;
+}
+
+.baggrund{
+    position: absolute;
+    width: 100%;
+    height: 110%;
+}
+
+.kioskbaggrund{
+    position: absolute;
+    z-index: 101;
+    top: 0;
+}
+
+.parent{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    position: absolute;
+    z-index: 104;
+    padding-left: 58rem;
+    padding-top: 12rem;
+}
+
+.parent div{
+    padding: 10px;
+    background-color: wheat;
+    border-radius: 5px;
+    outline: solid 1px rgba(65, 64, 64, 0.2);
+    transform: scale(1);
+    opacity: 0.8;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    -ms-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.parent div:hover{
+    transform: scale(1.03);
+}
+
+.parent > div > .kiosk-emoji{
+    opacity: 1;
+    font-size: 40px;
+    padding-left: 2.2rem;
+    padding-top: 1rem;
+    cursor: pointer;
+}
+
+/* SHOPS */
+
+/* FISK */
+
+/* POP UP MAP */
+
+.open{
+    max-width: 150px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.mapup{
+    visibility: hidden;
+    position: absolute;
+    z-index: 106;
+    transform: scale(0.1);
+    top: 40px;
+    right: 140px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+  }
+
+
+  .show-map{
+    position: absolute;
+    visibility: visible;
+    transform: scale(1);
+    top: -5%;
+    right: 79%;
+  }
+
+  .kort{
+    position: absolute;
+    z-index: 106;
+    height: 810px;
+  }
+
+  .xmark{
+    height: 100px;
+    position: absolute;
+    z-index: 106;
+    top: 100px;
+    left: 550px;
+  }
+
+  .mapup a{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 107;
+    opacity: 0.9;
+  }
+
+  .zoo{
+    background-color: #444444;
+    top: 565px;
+    left: 480px;
+  }
+
+  .mine{
+    background-color: #444444;
+    top: 160px;
+    left: 430px;
+  }
+
+  .mapup a:hover{
+    background-color: rgb(246, 247, 248);
+    opacity: 0.7;
+  }
+
+  .girafmap{
+    position: absolute;
+    z-index: 106;
+    height: 130px;
+    top: 490px;
+    left: 365px;
+  }
+
+  .kioskmap{
+  position: absolute;
+  z-index: 106;
+  height: 200px;
+  top: 240px;
+  left: 345px;
+  }
+
+  .minecartmap{
+    position: absolute;
+    z-index: 106;
+    height: 160px;
+    top: 60px;
+    left: 350px;
+  }
+
+  .active{
+    position: absolute;
+    z-index: 107;
+    background-color: rgb(246, 247, 248);
+    top: 370px;
+    left: 470px;
+  }
