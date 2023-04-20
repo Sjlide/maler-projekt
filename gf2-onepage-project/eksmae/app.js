@@ -1,0 +1,1 @@
+floof.init(".container", "Jens er et almindeligt navn")

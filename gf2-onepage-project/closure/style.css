@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+.carousel{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+}
+
+.carousel__image{
+    grid-column: 1/4;
+    box-shadow: 1px 1px 40px 10px rgba(0,0,0,0.4);
+}
+
+.carousel__backButton{
+    grid-column: 1/2;
+    z-index: 3;
+
+}
+
+.carousel__forwardButton{
+    grid-column: 3/4;
+    z-index: 3;
+}
+
+.carousel__image, .carousel__backButton, .carousel__forwardButton{
+    grid-row: 1/2;
+}
+
+.carousel__backButton, .carousel__forwardButton{
+    border: none;
+    background: transparent;
+    font-size: x-large;
+    color: white;
+}
+
+.carousel__backButton:hover{
+    background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.carousel__forwardButton:hover{
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.animatedDiv--moved{
+    position: relative;
+    animation: fade 4s;
+}
+
+.divAnimated--mover{
+    position: relative;
+    animation: fade2 4s;
+}
+
+#contain-button {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  font-size: x-large;
+  transform: translateX(-50%);
+}
+
+.button:hover,
+.button:focus {
+  opacity: 0.5;
+  transition: opacity ease-in-out 0.1s;
+}
+
+.active {
+  opacity: 0.5;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: rotate3d(3, 1, 0, 48deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate3d(0, 0, 0, 24deg);
+    }
+}
+
+
+.imageText{
+    position: relative;
+    bottom: 240px;
+    left: 585px;
+    z-index: 25;
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: xx-large;
+}
